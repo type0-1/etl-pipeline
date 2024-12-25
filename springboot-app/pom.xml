@@ -32,13 +32,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
-        <!-- Spring Data MongoDB (for MongoDB integration) -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
-        </dependency>
-
         <!-- Apache Camel for orchestrating the ETL flow -->
         <dependency>
             <groupId>org.apache.camel.springboot</groupId>
@@ -55,11 +48,6 @@
             <groupId>org.springframework.integration</groupId>
             <artifactId>spring-integration-jpa</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.integration</groupId>
-            <artifactId>spring-integration-mongodb</artifactId>
-        </dependency>
-
         <!-- Spring Boot DevTools (for faster development cycle) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -72,6 +60,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
+			<version>42.7.2</version>
             <scope>runtime</scope>
         </dependency>
 
@@ -93,6 +82,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
+
+		<dependency>
+  			<groupId>io.github.cdimascio</groupId>
+  			<artifactId>dotenv-java</artifactId>
+  			<version>3.0.0</version>
+		</dependency>
     </dependencies>
 
     <build>
