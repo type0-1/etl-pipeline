@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringbootAppApplication {
 
     public static void main(String[] args) {
-        // Load the .env file
+        // Loading env file
         Dotenv dotenv = Dotenv.load();
         
-        // Now you can use the environment variables
+        // Setting environment variables
         System.setProperty("DB_USERNAME", dotenv.get("DB_USERNAME"));
         System.setProperty("DB_PASSWORD", dotenv.get("DB_PASSWORD"));
         
