@@ -80,10 +80,9 @@
             <version>3.0.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.vladmihalcea</groupId>
-            <artifactId>hibernate-types-52</artifactId>
-            <version>2.10.5</version> <!-- Use the appropriate version -->
+        <dependency> 
+            <groupId>org.springframework.boot</groupId> 
+            <artifactId>spring-boot-starter-validation</artifactId> 
         </dependency>
     </dependencies>
 
