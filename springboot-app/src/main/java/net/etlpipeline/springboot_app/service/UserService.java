@@ -8,11 +8,11 @@ public class UserService {
     public static void main(String[] args) throws JsonMappingException, JsonProcessingException{
         // Test json data
         String jsonString = "{\r\n" +
-        " \"name\": \"Amod\", \r\n" +
-        " \"age\": 30, \r\n" +
+        " \"name\": \"John Doe\", \r\n" +
+        " \"age\": 24, \r\n" +
         " \"married\": true, \r\n" + 
-        " \"address\": \"NY\", \r\n" +
-        " \"mobileNo\": \"2324324\"\r\n"+
+        " \"address\": \"Mexico\", \r\n" +
+        " \"mobileNo\": \"18392304\"\r\n"+
         "}";
 
         ObjectMapper omap = new ObjectMapper();
